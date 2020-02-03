@@ -94,6 +94,11 @@ namespace Noyau
         {
             return Cells[(9 * x) + y];
         }
+
+        public void SetCell(int x, int y, int value)
+        {
+            Cells[(9 * x) + y] = value;
+        }
         public static Sudoku Parse(string sudokuAsString)
         {
             return ParseMulti(new[] { sudokuAsString })[0];
