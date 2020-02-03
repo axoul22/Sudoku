@@ -4,7 +4,7 @@ Les règles du sudoku sont très simples. Un sudoku classique contient neuf lign
 Le but du jeu est de remplir ces cases avec des chiffres allant de 1 à 9 en veillant toujours à ce qu'un même chiffre ne figure qu'une seule fois par colonne, une seule fois par ligne, et une seule fois par carré de neuf cases.
 Une grille initiale de sudoku correctement constituée ne peut aboutir qu'à une et une seule solution. Pour trouver les chiffres manquants, tout est une question de logique et d'observation ( ou de code ;) ).
 
-Pour ce premier TP le travail consiste donc résoudre avec différentes formes d'intelligence artificille un sudoku, la classe est séparée en 7 groupes, soit 6 groupes utilisant 6 méthodes de résolution différentes et un groupe arbitre servant à reçeptionner et organiser le code des autres groupes dans un github commun et réalisant un Benchmark en C# sous visual studio.
+Pour ce premier TP le travail consiste donc résoudre avec différentes formes d'intelligence artificille un sudoku, la classe est séparée en 8 groupes, soit 7 groupes utilisant 7 méthodes de résolution différentes et un groupe arbitre servant à reçeptionner et organiser le code des autres groupes dans un github commun et réalisant un Benchmark en C# sous visual studio.
 
 Le premier objectif est de créer une application permettant de charger et afficher les Sudokus à résoudre.
 Créez une application de Console .Net Core.
