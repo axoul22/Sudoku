@@ -2,10 +2,10 @@ using System;
 using SolveurGenetic;
 using SolveurORTools;
 using SolveurLiensDansants;
+using SolverN;
 using Noyau;
 using System.Diagnostics;
-using System.Collections.Generic;
-using System.IO ;
+using System.IO;
 
 namespace Benchmark
 {
@@ -389,11 +389,11 @@ namespace Benchmark
                     case 6:
                         Console.WriteLine("Résolution du Sudoku par Norvig ");
 
-                        //Norvig norvig = new Norvig();
+                        Norvig norvig = new Norvig();
 
                         stopwatch.Start();
 
-                        //s = norvig.ResoudreSudoku(s);
+                        s = norvig.ResoudreSudoku(s);
 
                         stopwatch.Stop();
 

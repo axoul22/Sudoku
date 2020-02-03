@@ -103,10 +103,7 @@ namespace Noyau
         {
             return ParseMulti(new[] { sudokuAsString })[0];
         }
-        public void SetCell(int x, int y, int value)
-        {
-            Cells[(9 * x) + y] = value;
-        }
+      
 
         /// <summary>
         /// Parses a file with one or several sudokus

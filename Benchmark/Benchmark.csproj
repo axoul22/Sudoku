@@ -11,6 +11,7 @@
     <ProjectReference Include="..\..\Sudoku\SolveurGenetic\SolveurGenetic.csproj" />
     <ProjectReference Include="..\..\Sudoku\SolveurLiensDansants\SolveurLiensDansants.csproj" />
     <ProjectReference Include="..\..\Sudoku\SolveurORTools\SolveurORTools.csproj" />
+    <ProjectReference Include="..\SolverN\SolverN.csproj" />
   </ItemGroup>
 
 </Project>
